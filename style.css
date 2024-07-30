@@ -443,7 +443,7 @@ h3{
     align-items: center;
     width: calc(33% - 20px); /* Adjust width to fit three items per row with gaps */
     margin-bottom: 20px; /* Add margin at the bottom for spacing */
-    padding: 30px;
+    /* padding: 30px; */
 }
 
 .certificate-box {
@@ -794,4 +794,25 @@ footer{
 .social_icons .uil-instagram {
     font-size: 24px; /* Sesuaikan ukuran ikon sesuai kebutuhan */
     color: inherit; /* Sesuaikan warna ikon sesuai kebutuhan */
+}
+/* Responsive styles */
+@media (max-width: 768px) {
+    .project-container-box, .certificate-container-box {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .project-container-box, .certificate-container-box {
+        padding: 15px;
+    }
+
+    .m-3 {
+        margin: 10px 0;
+    }
+
+    label {
+        font-size: 13px;
+    }
 }
