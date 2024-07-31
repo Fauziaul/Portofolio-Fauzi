@@ -643,9 +643,7 @@ footer{
 .footer-social-icons{
     display: flex;
     gap: 30px; 
-    color: #DDE0E4;  
-   
-    
+    color: #DDE0E4;    
 }
 .bottom-footer{
     font-size: 14px;
@@ -791,10 +789,10 @@ footer{
 }
 
 /* Aturan tambahan untuk memastikan ikon tampil dengan benar */
-.social_icons .uil-instagram {
-    font-size: 24px; /* Sesuaikan ukuran ikon sesuai kebutuhan */
-    color: inherit; /* Sesuaikan warna ikon sesuai kebutuhan */
-}
+/* .social_icons .uil-instagram {
+    font-size: 24px;
+    color: inherit; 
+} */
 /* Responsive styles */
 @media (max-width: 768px) {
     .project-container-box, .certificate-container-box {
