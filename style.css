@@ -382,7 +382,7 @@ h3{
     width: 100%;
     height: 250px;
     background: var(--color-white);
-    border-radius: 20px;
+    border-radius: 10px;
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
     overflow: hidden;
     position: relative; /* Correct position for pseudo-elements */
@@ -391,7 +391,10 @@ h3{
 .project-box img {
     width: 100%; /* Ensure the image fits the box */
     height: auto;
-    border-radius: 20px; /* Match border radius of the project box */
+    border-radius: 10px; /* Match border radius of the project box */
+    position: relative;
+    overflow: hidden;
+    flex-direction: column;
 }
 
 .project-container-box h3 {
@@ -739,6 +742,12 @@ footer{
     .project-box{
         width: 80%;
     }
+    .certificate-container{
+        justify-content: center;
+    }
+    .certificate-box{
+        width: 80%;
+    }
 
 }
 
@@ -749,6 +758,9 @@ footer{
         font-size: 40px;
     }
     .project-box{
+        width: 100%;
+    }
+    .certificate-box{
         width: 100%;
     }
     .form-inputs{
